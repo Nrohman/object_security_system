@@ -1,0 +1,61 @@
+[
+    {
+        "timestamp": "01:31:56",
+        "event": "initial_camera_detection",
+        "status": "info",
+        "details": "Objects detected on camera startup: {}"
+    },
+    {
+        "timestamp": "01:32:45",
+        "event": "initial_camera_detection",
+        "status": "info",
+        "details": "Objects detected on camera startup: {}"
+    },
+    {
+        "timestamp": "01:32:51",
+        "event": "stock_change",
+        "status": "unauthorized",
+        "initial_baseline": {},
+        "actual_objects_at_detection": {
+            "cell phone": 1
+        },
+        "change_details": "cell phone muncul (0 -> 1)",
+        "capture_path": "screenshots_rekaman\\unauthorized\\deteksi_20250723_013251.jpg"
+    },
+    {
+        "timestamp": "01:36:50",
+        "event": "initial_camera_detection",
+        "status": "info",
+        "details": "Objects detected on camera startup: {}"
+    },
+    {
+        "timestamp": "01:37:03",
+        "event": "defense_mode_enter",
+        "status": "authorized",
+        "details": "User entered defense mode."
+    },
+    {
+        "timestamp": "01:37:20",
+        "event": "baseline_set",
+        "status": "authorized",
+        "details": "Initial state set: {'cell phone': 1}",
+        "capture_path": "screenshots_rekaman\\authorized\\deteksi_20250723_013720.jpg"
+    },
+    {
+        "timestamp": "01:37:24",
+        "event": "defense_mode_exit",
+        "status": "authorized",
+        "details": "User exited defense mode. Monitoring resumed."
+    },
+    {
+        "timestamp": "01:37:27",
+        "event": "stock_change",
+        "status": "unauthorized",
+        "initial_baseline": {
+            "cell phone": 1
+        },
+        "actual_objects_at_detection": {},
+        "change_details": "cell phone hilang (1 -> 0)",
+        "capture_path": "screenshots_rekaman\\unauthorized\\deteksi_20250723_013727.jpg"
+    }
+]
